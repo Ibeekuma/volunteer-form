@@ -8,17 +8,17 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="max-length">
       <h1 class="push-1-2">Apply to be a tree planter</h1>
-      <p class="push-1-2 mega" >Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+      <p class="push-1-2 mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </div>
   </header>
 
-  <form class="gutter-1-2 max-length" method="POST" action="#">
+  <form class="gutter-1-2 max-length grid" method="POST" action="#">
     <fieldset>
       <legend class="unit push pad-t pad-b-1-4 giga">Personal details</legend>
 
@@ -35,13 +35,13 @@
       </div>
 
       <div>
-        <label class="push-1-6">Date of birth</label>
+        <label class="push-1-6" for="date">Date of birth</label>
         <input class="push-1-6" id="date" type="date">
       </div>
 
       <div>
         <label class="push-1-6" for="size">T-shirt size</label>
-        <select class="push"id="size">
+        <select class="push" id="size">
           <option value="">Select a t-shirt size</option>
           <option>Fitted: S</option>
           <option>Fitted: M</option>
@@ -70,7 +70,7 @@
     <hr class="unit push-2">
 
     <fieldset>
-      <legend class="unit push pad-b-1-4 giga">Address</legend>
+      <legend class="unit push-1-4 pad-b-1-8 giga">Address</legend>
 
       <div class="unit xs-1 s-1 m-1-2 pad-b-1-2">
         <label class="push-1-6" for="address">Street address</label>
@@ -83,7 +83,7 @@
       </div>
 
       <div class="unit xs-1 s-1 m-2 pad-b-1-2">
-        <label class="push-1-6"for="province">Province</label>
+        <label class="push-1-6" for="province">Province</label>
         <select id="province">
           <option value="">Select a province</option>
           <option>Alberta</option>
@@ -269,7 +269,5 @@
   <footer>
     <p class="milli push-0 gutter-1-2 pad-t pad-b">© Tree Hugger International Organization</p>
   </footer>
-
-
 </body>
 </html>
