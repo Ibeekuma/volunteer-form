@@ -1,0 +1,29 @@
+html {
+  font-family: "Droid Serif", serif;
+}
+
+header, footer {
+  color: #fff;
+  background-color: #70ad55;
+}
+
+.optional {
+  color: #70ad55;
+}
+
+fieldset {
+  border: 0;
+}
+
+input, select, textarea {
+  border-color: #6e8c62;
+}
+
+hr {
+  border-color: #70ad55;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
