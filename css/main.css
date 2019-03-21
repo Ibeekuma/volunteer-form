@@ -27,3 +27,15 @@ hr {
   background-color: #6e8c62;
   border-color: #6e8c62;
 }
+
+.border-top {
+  border-top: solid 2px #6e8c62;
+}
+
+input,
+select,
+textarea,
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
+}
